@@ -1,0 +1,16 @@
+@import './colors';
+
+body {
+    background-color: $hatter;
+}
+
+.keret {
+    width: 50%;
+    padding: 1rem;
+    margin: 1rem;
+    border: $keret dashed;
+}
+
+.akcio {
+    color: $kiemeles;
+}

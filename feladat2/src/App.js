@@ -44,7 +44,7 @@ function handleSubmit(e) {
   </div>
 </div>
 <div className="card mt-5 mx-auto p-3 w-75">
-    <form onSubmit="handleSubmit">
+    <form onSubmit={handleSubmit}>
       <h2>Új híresség jelzése</h2>
       <label htmlFor="wLink" className="form-label">Wikipédia link</label>
       <input 
