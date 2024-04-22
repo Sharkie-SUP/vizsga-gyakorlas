@@ -42,7 +42,7 @@ it('should have Wikipedia links', () => {
   });
 });
 
-it('shoud have the url field', () => {
+it('should have the url field', () => {
   render(<App />);
 
   const urlField = screen.getByLabelText('Wikipédia link');
@@ -52,7 +52,7 @@ it('shoud have the url field', () => {
 });
 
 
-it('shoud have the description field', () => {
+it('should have the description field', () => {
   render(<App />);
 
   const textField = screen.getByLabelText('Leírás');
@@ -60,7 +60,7 @@ it('shoud have the description field', () => {
   expect(textField).toBeInstanceOf(HTMLTextAreaElement);
 });
 
-it('shoud have a primary button', () => {
+it('should have a primary button', () => {
   render(<App />);
 
   let button = screen.queryByDisplayValue('Elküld');

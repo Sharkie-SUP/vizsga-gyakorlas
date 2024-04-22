@@ -1,8 +1,21 @@
-
 * {
     box-sizing: border-box;
 }
 
 body {
+    font-family: sans-serif;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
+.bookstore-header {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.bookstore-footer {
+    margin-top: 2rem;
+    text-align: center;
 }
